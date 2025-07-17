@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-data = pd.read_csv("/content/clean_netflix_data.csv")
+data = pd.read_csv("clean_netflix_data.csv")
 
 # Page title
 st.title("🎥 Netflix Explorer App")
